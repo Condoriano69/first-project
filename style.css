@@ -1,17 +1,27 @@
 body {
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-direction: column;
-
 }
 
-header {
+body, p {
+    padding: 0;
     margin: 0;
-    padding: 0 200px;
+}
+
+
+header, .heromain {
+    margin: 0;
+    padding: 10px 200px;
     background-color: #1f2937;
     display: flex;
     align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.heromain {
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .logo {
@@ -27,17 +37,49 @@ header {
 .menu {
     font: 18px sans-serif, arial;
     display: flex;
-    gap: 40px;
+    gap: 80px;
     margin-left: auto;
+    padding: 0;
 
 }
 
 .logoheader {
-    font: 30px sans-serif;
+    font: 24px sans-serif;
     margin-left: 12px;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.herotxtside {
+    max-width: 500px;
+    gap: 20px;
+}
+
+.heroimg1 {
+    max-width: 800px;
+}
+
+.herotxtmain {
+    font: 55px sans-serif, arial;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+.subtext {
+    font-size: 18px;
+    color: #e9e9e3;
+    margin-bottom: 12px;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: #e9e9e3;
+    padding: 12px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    border-color: #3882f6;
 }
