@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    margin: 0;
+    padding: 0 200px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.menu, .logoheader{
+    list-style: none;
+    color: #e5e7eb;
+}
+
+.menu {
+    font: 18px sans-serif, arial;
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+
+}
+
+.logoheader {
+    font: 30px sans-serif;
+    margin-left: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
